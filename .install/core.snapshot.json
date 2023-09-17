@@ -1,0 +1,39 @@
+{
+  "components": [
+    {
+      "data": {
+        "contents_checksum": "1597f70f2ab050c2635c3f12d39c08daca191eb9b192a661f1b3a7cd17bffcbc",
+        "source": "",
+        "type": "tar"
+      },
+      "dependencies": [
+        "bundled-python3-unix",
+        "core-nix",
+        "core-win",
+        "gcloud-deps",
+        "ssh-tools"
+      ],
+      "details": {
+        "description": "Handles all core functionality for the Google Cloud CLI.",
+        "display_name": "Google Cloud CLI Core Libraries"
+      },
+      "id": "core",
+      "is_configuration": false,
+      "is_hidden": false,
+      "is_required": true,
+      "platform": {},
+      "platform_required": false,
+      "version": {
+        "build_number": 20230303155151,
+        "version_string": "2023.03.03"
+      }
+    }
+  ],
+  "revision": 20230303155151,
+  "schema_version": {
+    "no_update": false,
+    "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/google-cloud-sdk.tar.gz",
+    "version": 3
+  },
+  "version": "421.0.0"
+}
